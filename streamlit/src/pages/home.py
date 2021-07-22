@@ -14,7 +14,7 @@ def app():
     ####################################################
     with header:
         st.title("Prediction of actions of  People ")
-        image = Image.open('./assets/1.png')
+        image = Image.open('assets/1.png')
         st.image(image, caption='Machine Learning', use_column_width=False)
 
         st.markdown("")
