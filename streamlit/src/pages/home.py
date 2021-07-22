@@ -14,7 +14,7 @@ def app():
     ####################################################
     with header:
         st.title("Prediction of actions of  People ")
-        image = Image.open('./assets/1.png')
+        image = Image.open('assets/1.png')
         st.image(image, caption='Machine Learning', use_column_width=False)
 
         st.markdown("")
@@ -22,7 +22,7 @@ def app():
         st.markdown("")
         with team:
             st.title('Huawei Fit Team ')
-            image = Image.open('./assets/jb.png')
+            image = Image.open('assets/jb.png')
             st.image(image, caption='Team members', use_column_width=False)
             col1, col2, col3, col4, col5 = st.beta_columns(5)
             with col1:
